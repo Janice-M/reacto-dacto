@@ -14,3 +14,5 @@ import {
         </Toolbar>
         </AppBar>
     );
+
+export default AppHeader;
