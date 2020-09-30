@@ -17,11 +17,11 @@ const styles = theme => ({
     });
 
     const App = ({ classes }) => (
-        <Fragment>
-          <CssBaseline />
-          <AppHeader />
-          <main className={classes.main}>
-            <Home />
-          </main>
-        </Fragment>
-      );
+            <Fragment>
+            <CssBaseline />
+            <AppHeader />
+            <main className={classes.main}>
+                <Home />
+            </main>
+            </Fragment>
+        );
