@@ -8,10 +8,10 @@ import AppHeader from './components/AppHeader';
 import Home from './pages/Home';
 
 const styles = theme => ({
-    main: {
-      padding: theme.spacing(3),
-      [theme.breakpoints.down('xs')]: {
-        padding: theme.spacing(2),
-      },
-    },
-  });
+        main: {
+        padding: theme.spacing(3),
+        [theme.breakpoints.down('xs')]: {
+            padding: theme.spacing(2),
+        },
+        },
+    });
