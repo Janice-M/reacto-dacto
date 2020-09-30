@@ -25,3 +25,5 @@ const styles = theme => ({
             </main>
             </Fragment>
         );
+
+        export default withStyles(styles)(App);
