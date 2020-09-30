@@ -9,7 +9,7 @@ import {
         <AppBar position="static">
         <Toolbar>
             <Typography variant="h6" color="inherit">
-            My React App
+            My Reacto Dacto App
             </Typography>
         </Toolbar>
         </AppBar>
