@@ -8,7 +8,7 @@ import {
     const AppHeader = () => (
         <AppBar position="static">
         <Toolbar>
-            <Typography variant="h6" color="inherit">
+            <Typography variant="h4" color="inherit">
             Jan Reacto Dacto App
             </Typography>
         </Toolbar>
