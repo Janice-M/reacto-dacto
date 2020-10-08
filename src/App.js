@@ -23,7 +23,7 @@ const styles = theme => ({
             <CssBaseline />
             <AppHeader />
             <main className={classes.main}>
-                <Home />
+                
             </main>
             </Fragment>
         );
