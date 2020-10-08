@@ -47,3 +47,8 @@ class LoginButton extends Component {
     
         if (authenticated === null) return null;
         if (!authenticated) return <Button color="inherit" onClick={this.login}>Login</Button>;
+
+        const menuPosition = {
+            vertical: 'top',
+            horizontal: 'right',
+          };
