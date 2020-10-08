@@ -30,4 +30,4 @@ class LoginButton extends Component {
         const user = await this.props.auth.getUser();
         this.setState({ authenticated, user });
         }
-      
+    }
