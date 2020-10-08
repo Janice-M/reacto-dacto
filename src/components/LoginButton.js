@@ -40,3 +40,10 @@ class LoginButton extends Component {
 
     handleMenuOpen = event => this.setState({ menuAnchorEl: event.currentTarget });
     handleMenuClose = () => this.setState({ menuAnchorEl: null });
+
+
+    render() {
+        const { authenticated, user, menuAnchorEl } = this.state;
+    
+        if (authenticated === null) return null;
+        if (!authenticated) return <Button color="inherit" onClick={this.login}>Login</Button>;
