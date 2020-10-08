@@ -73,3 +73,6 @@ class LoginButton extends Component {
             </MenuItem>
             </Menu>
         </div>
+        );
+        }
+    }
