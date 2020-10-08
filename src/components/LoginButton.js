@@ -33,7 +33,7 @@ class LoginButton extends Component {
     }
 
     login = () => this.props.auth.login();
-  logout = () => {
+    logout = () => {
     this.handleMenuClose();
     this.props.auth.logout();
-  }
+    }
