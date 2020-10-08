@@ -26,9 +26,9 @@ const styles = theme => ({
             <main className={classes.main}>
                 
             <Route exact path="/" component={Home} />
-     <Route path="/implicit/callback" component={ImplicitCallback} />
-     </main>
-   </Fragment>
- );
+            <Route path="/implicit/callback" component={ImplicitCallback} />
+            </main>
+        </Fragment>
+        );
 
 export default withStyles(styles)(App);
