@@ -17,3 +17,6 @@ class LoginButton extends Component {
         user: null,
         menuAnchorEl: null,
     };
+    componentDidUpdate() {
+        this.checkAuthentication();
+        }
