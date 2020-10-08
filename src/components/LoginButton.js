@@ -51,4 +51,10 @@ class LoginButton extends Component {
         const menuPosition = {
             vertical: 'top',
             horizontal: 'right',
-          };
+        };
+
+    return (
+        <div>
+            <IconButton onClick={this.handleMenuOpen} color="inherit">
+            <AccountCircle />
+            </IconButton>   
