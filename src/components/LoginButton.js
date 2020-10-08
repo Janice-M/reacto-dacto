@@ -13,7 +13,7 @@ import { withAuth } from '@okta/okta-react';
 
 class LoginButton extends Component {
     state = {
-      authenticated: null,
-      user: null,
-      menuAnchorEl: null,
+        authenticated: null,
+        user: null,
+        menuAnchorEl: null,
     };
