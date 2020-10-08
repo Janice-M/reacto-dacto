@@ -26,7 +26,7 @@ const styles = theme => ({
             <main className={classes.main}>
                 
             <Route exact path="/" component={Home} />
-+      <Route path="/implicit/callback" component={ImplicitCallback} />
+     <Route path="/implicit/callback" component={ImplicitCallback} />
      </main>
    </Fragment>
  );
