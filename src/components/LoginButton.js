@@ -31,3 +31,9 @@ class LoginButton extends Component {
         this.setState({ authenticated, user });
         }
     }
+
+    login = () => this.props.auth.login();
+  logout = () => {
+    this.handleMenuClose();
+    this.props.auth.logout();
+  }
