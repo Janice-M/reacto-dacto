@@ -19,4 +19,7 @@ class LoginButton extends Component {
     };
     componentDidUpdate() {
         this.checkAuthentication();
-        }
+    }
+    componentDidMount() {
+        this.checkAuthentication();
+    }
