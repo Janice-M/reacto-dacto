@@ -12,7 +12,7 @@ import {
             Jan Reacto Dacto App
             </Typography>
         </Toolbar>
-        </AppBar>
+        </ppBar>
     );
 
 export default AppHeader;
