@@ -8,8 +8,7 @@ import {
 } from '@material-ui/core';
 
 import { AccountCircle } from '@material-ui/icons';
-import { withAuth } from '@okta/okta-react';
-
+import { withAuth } from '@okta/okta-reac
 
 class LoginButton extends Component {
     state = {
