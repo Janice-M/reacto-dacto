@@ -11,7 +11,7 @@ import {
             <Typography variant="h4" color="inherit">
             Jan Reacto Dacto App
             </Typography>
-        </Tlbar>
+        </Toolbar>
         </AppBar>
     );
 
