@@ -35,7 +35,7 @@ class LoginButton extends Component {
     login = () => this.props.auth.login();
     logout = () => {
     this.handleMenuClose();
-    this.props.auth.logout();
+    this.props.auth.logo;
     }
 
     handleMenuOpen = event => this.setState({ menuAnchorEl: event.currentTarget });
