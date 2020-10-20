@@ -9,7 +9,7 @@ import {
         <AppBar position="static">
         <Toolbar>
             <Typography variant="h4" color="inherit">
-            Jan Reacto Dacto Scato App
+            Jan Reacto Dacto  App
             </Typography>
         </Toolbar>
         </AppBar>
