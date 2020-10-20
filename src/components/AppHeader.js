@@ -5,7 +5,7 @@ import {
     Typography,
 } from '@material-ui/core';
 
-    const AppHeader = () => (
+    const AppHeader = ( => (
         <AppBar position="static">
         <Toolbar>
             <Typography variant="h4" color="inherit">
