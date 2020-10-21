@@ -8,7 +8,7 @@ import {
 } from '@material-ui/core';
 
 import AppHeader from './components/AppHeader';
-import Home from './pages/Home';
+import Home om './pages/Home';
 
 const styles = theme => ({
         main: {
